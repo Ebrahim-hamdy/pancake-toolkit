@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/pancakeswap/pancake-toolkit#readme",
   "scripts": {
+    "start": "lerna run start",
     "build": "lerna run build",
     "test": "lerna run test",
     "lint": "lerna run lint",
