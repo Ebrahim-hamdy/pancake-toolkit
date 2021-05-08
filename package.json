@@ -24,6 +24,9 @@
     "storybook:build": "lerna run storybook:build",
     "release": "yarn build && yarn lerna publish"
   },
+  "precommit": [
+    "build"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "yarn format:check",
