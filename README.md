@@ -1,25 +1,40 @@
-# Pancake Toolkit
+# 🥞 Pancake UIkit
 
-This repository is a monorepo manage with [yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/) and [Lerna](https://lerna.js.org/). 
+[![Version](https://img.shields.io/npm/v/@pancakeswap-libs/uikit)](https://www.npmjs.com/package/@pancakeswap-libs/uikit) [![Size](https://img.shields.io/bundlephobia/min/@pancakeswap-libs/uikit)](https://www.npmjs.com/package/@pancakeswap-libs/uikit)
 
-## Packages
+Pancake UIkit is a set of React components and hooks used to build pages on Pancake's apps. It also contains a theme file for dark and light mode.
 
-- [pancake-uikit](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit) : React components used to build the Pancake UI
-- [eslint-config-pancake](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake) : An ESLint config for pancake, with Typescript and Prettier support
+## Install
 
-## How to use
+`yarn add @pancakeswap-libs/uikit`
 
-Clone the repository 
+## Setup
 
-```
-git clone git@github.com:pancakeswap/pancake-toolkit.git
-```
+### Theme
 
-Run yarn at the root of the workspace
+Before using Pancake UIkit, you need to provide the theme file to styled-component.
 
 ```
-cd pancake-toolkit
-yarn
+import { ThemeProvider } from 'styled-components'
+import { light, dark } from '@pancakeswap-libs/uikit'
+...
+<ThemeProvider theme={isDark}>...</ThemeProvider>
 ```
 
-Then, refer to the readme of each project.
+### Reset
+
+A reset CSS is available as a global styled component.
+
+```
+import { ResetCSS } from '@pancakeswap-libs/uikit'
+...
+<ResetCSS />
+```
+
+### Types
+
+This project is built with Typescript and export all the relevant types.
+
+## How to use the UIkit
+
+If you want to use components from the UIkit, check the [Storybook documentation](https://pancakeswap.github.io/pancake-uikit/)
