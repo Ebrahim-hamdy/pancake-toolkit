@@ -3237,7 +3237,7 @@ var Logo$2 = function (_a) {
     return (
     // <img src="headerLogo.pnghttps://p.bigstockphoto.com/GeFvQkBbSLaMdpKXF1Zv_bigstock-Aerial-View-Of-Blue-Lakes-And--227291596.jpg" />
     React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 300 100" }, props),
-        React__default['default'].createElement("image", { width: "300", height: "100", href: "https://dubaiswapresources.s3.us-east-2.amazonaws.com/favicon.png" })));
+        React__default['default'].createElement("image", { width: "300", height: "100", href: "https://dubaiswapresources.s3.us-east-2.amazonaws.com/headerLogo.png" })));
 };
 var LogoWithText = React__default['default'].memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
 
