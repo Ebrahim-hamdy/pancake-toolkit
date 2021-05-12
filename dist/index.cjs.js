@@ -544,8 +544,7 @@ var Icon$11 = function (props) {
 
 var Icon$10 = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-    React.createElement("image", { width: "32", height: "32", href: "https://dubaiswapresources.s3.us-east-2.amazonaws.com/favicon.png" })
-    ));
+        React__default['default'].createElement("image", { width: "32", height: "23", href: "https://dubaiswapresources.s3.us-east-2.amazonaws.com/favicon.png" })));
 };
 
 var Icon$$ = function (props) {
