@@ -725,7 +725,8 @@ var Icon$R = function (props) {
 
 var Icon$Q = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default['default'].React.createElement("image", { width: "90", height: "90", href: "https://dubaiswapresources.s3.us-east-2.amazonaws.com/favicon.png" }),
+        React__default['default'].createElement("circle", { cx: "45", cy: "45", r: "45", fill: "url(#paint0_linear_pancakeround)" }),
+        React__default['default'].createElement("image", { width: "90", height: "90", href: "https://dubaiswapresources.s3.us-east-2.amazonaws.com/favicon.png" }),
         React__default['default'].createElement("defs", null,
             React__default['default'].createElement("linearGradient", { id: "paint0_linear_pancakeround", x1: "45", y1: "0", x2: "45", y2: "90", gradientUnits: "userSpaceOnUse" },
                 React__default['default'].createElement("stop", { stopColor: "#54DADE" }),
@@ -735,6 +736,7 @@ var Icon$Q = function (props) {
                 React__default['default'].createElement("stop", { offset: "0.370494", stopColor: "#7D3900" }),
                 React__default['default'].createElement("stop", { offset: "1", stopColor: "#8D4104" })))));
 };
+//Abla
 
 var Icon$P = function (props) {
     var id = uniqueId__default['default']("svg");
